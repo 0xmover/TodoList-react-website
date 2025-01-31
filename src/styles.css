@@ -1,0 +1,105 @@
+/* Global styles */  
+body {  
+    margin: 0;  
+    font-family: 'Arial', sans-serif;  
+    background-color: #f9fafb;  
+}  
+
+/* Wrapper for the main content */  
+.container {  
+    min-height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    padding: 20px;  
+}  
+
+/* Card-like container for Todo List */  
+.todo-card {  
+    background: #ffffff;  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  
+    border-radius: 12px;  
+    padding: 20px;  
+    max-width: 500px;  
+    width: 100%;  
+}  
+
+/* Heading styles */  
+.todo-card h1 {  
+    margin-bottom: 20px;  
+    font-size: 24px;  
+    font-weight: bold;  
+    color: #111827;  
+    text-align: center;  
+}  
+
+/* List styling */  
+.todo-list {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+.todo-item {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #f3f4f6;  
+    border-radius: 8px;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+}  
+
+.todo-item span {  
+    font-size: 16px;  
+    color: #374151;  
+}  
+
+/* Button styles */  
+.todo-item button {  
+    background-color: #ef4444;  
+    border: none;  
+    color: white;  
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 8px 12px;  
+    border-radius: 6px;  
+    cursor: pointer;  
+    transition: background-color 0.2s;  
+}  
+
+.todo-item button:hover {  
+    background-color: #dc2626;  
+}  
+
+/* Input and Add Button styles */  
+.form-group {  
+    display: flex;  
+    margin-top: 20px;  
+    gap: 10px;  
+}  
+
+.form-control {  
+    flex: 1;  
+    padding: 10px;  
+    border: 1px solid #c3c4c7;  
+    border-radius: 6px;  
+    font-size: 16px;  
+}  
+
+.add-button {  
+    background-color: #2563eb;  
+    color: white;  
+    border: none;  
+    border-radius: 6px;  
+    padding: 10px 15px;  
+    font-weight: bold;  
+    font-size: 16px;  
+    cursor: pointer;  
+    transition: background-color 0.2s;  
+}  
+
+.add-button:hover {  
+    background-color: #1d4ed8;  
+}
+
